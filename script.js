@@ -21,7 +21,7 @@ function compute()
     futureYear = thisYear + Number(years);
 
     // Display the result - with numbers in bold.
-    result.innerHTML = "</br>If you deposit <strong>" + principal + "</strong>,</br> at an interest rate of <strong>" + rate + "</strong> %.</br> You will receive an amount of <strong>"  + interest + "</br></strong> in the year <strong>" + futureYear + "</strong>.";
+    result.innerHTML = "</br>If you deposit <mark>" + principal + "</mark>,</br> at an interest rate of <mark>" + rate + "</mark> %.</br> You will receive an amount of <mark>"  + interest + "</br></mark> in the year <mark>" + futureYear + "</mark>.";
 }
 
 function rangeSlider() {
